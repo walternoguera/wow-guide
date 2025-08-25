@@ -1,10 +1,15 @@
 site_name: Guía WoW Classic → TBC → WotLK (PvP)
-site_description: Profesiones, boosting, alternancia y guías por clase enfocadas en PvP.
+site_description: Profesiones, boosting estratégico, alternancia, guías por clase y kit PvP.
 site_url: https://walternoguera.github.io/wow-guide
 repo_url: https://github.com/walternoguera/wow-guide
+repo_name: walternoguera/wow-guide
+edit_uri: edit/main/docs/
 
 theme:
   name: material
+  language: es
+  logo: assets/logo.png         # opcional (créalo luego)
+  favicon: assets/favicon.png   # opcional (créalo luego)
   features:
     - navigation.instant
     - navigation.tracking
@@ -12,6 +17,10 @@ theme:
     - search.suggest
     - search.highlight
     - toc.integrate
+
+plugins:
+  - search:
+      lang: es
 
 nav:
   - Inicio: index.md
@@ -29,11 +38,7 @@ nav:
     - Druida & Cazador (soporte): 11-druid-hunter-support.md
   - Kit PvP + Addons: 99-kit-pvp-y-addons.md
 
-markdown_extensions:
-  - admonition
-  - toc:
-      permalink: true
-  - tables
-  - def_list
-  - attr_list
-  - md_in_html
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/walternoguera/wow-guide

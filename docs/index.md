@@ -1,17 +1,19 @@
-# Welcome to MkDocs
+# Guía WoW Classic → TBC → WotLK (PvP)
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+> Estrategia completa para una cuenta multi-personaje enfocada en **PvP**: profesiones óptimas por expansión, **cuándo boostear**, **alternancia por descanso**, guías por clase y **kit PvP**.
 
-## Commands
+## ¿Por dónde empiezo?
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
-
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+- **Plan maestro (visión general):** [01-plan-maestro.md](01-plan-maestro.md)  
+- **Boosting inteligente:** [02-boosting.md](02-boosting.md)  
+- **Alternancia (rested XP):** [03-alternancia.md](03-alternancia.md)  
+- **Profesiones por expansión:** [04-profesiones.md](04-profesiones.md)  
+- **Clases (leveo y tips):**
+  - [Paladín (Retribución)](05-paladin.md)
+  - [Guerrero (Arms)](06-warrior.md)
+  - [Brujo (Aflicción)](07-warlock.md)
+  - [Mago (Escarcha)](08-mage.md)
+  - [Pícaro (Combate)](09-rogue.md)
+  - [Sacerdote (Shadow/Healer)](10-priest.md)
+  - [Druida & Cazador (Soporte)](11-druid-hunter-support.md)
+- **Kit PvP + Addons:** [99-kit-pvp-y-addons.md](99-kit-pvp-y-addons.md)
