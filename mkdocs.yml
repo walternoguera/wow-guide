@@ -1,0 +1,39 @@
+site_name: Guía WoW Classic → TBC → WotLK (PvP)
+site_description: Profesiones, boosting, alternancia y guías por clase enfocadas en PvP.
+site_url: https://walternoguera.github.io/wow-guide
+repo_url: https://github.com/walternoguera/wow-guide
+
+theme:
+  name: material
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - toc.integrate
+
+nav:
+  - Inicio: index.md
+  - Plan maestro: 01-plan-maestro.md
+  - Boosting (cuándo sí/no): 02-boosting.md
+  - Alternancia (rested XP): 03-alternancia.md
+  - Profesiones: 04-profesiones.md
+  - Clases:
+    - Paladín (Retribución): 05-paladin.md
+    - Guerrero (Arms): 06-warrior.md
+    - Brujo (Aflicción): 07-warlock.md
+    - Mago (Escarcha): 08-mage.md
+    - Pícaro (Combate): 09-rogue.md
+    - Sacerdote (Shadow/Healer): 10-priest.md
+    - Druida & Cazador (soporte): 11-druid-hunter-support.md
+  - Kit PvP + Addons: 99-kit-pvp-y-addons.md
+
+markdown_extensions:
+  - admonition
+  - toc:
+      permalink: true
+  - tables
+  - def_list
+  - attr_list
+  - md_in_html
