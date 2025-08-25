@@ -66,7 +66,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#05-paladin" class="md-skip">
+        <a href="#paladin-retribucion-guia-de-leveo-2040" class="md-skip">
           Saltar a contenido
         </a>
       
@@ -383,6 +383,19 @@
         
       
       
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    Paladín (Retribución)
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <a href="./" class="md-nav__link md-nav__link--active">
         
   
@@ -394,6 +407,97 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Tabla de contenidos">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Tabla de contenidos
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#boost-ahora" class="md-nav__link">
+    <span class="md-ellipsis">
+      ¿Boost ahora?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#prioridades" class="md-nav__link">
+    <span class="md-ellipsis">
+      Prioridades
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#sellos-y-swapping" class="md-nav__link">
+    <span class="md-ellipsis">
+      Sellos y “swapping”
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#rotacion" class="md-nav__link">
+    <span class="md-ellipsis">
+      Rotación
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#talentos-2040" class="md-nav__link">
+    <span class="md-ellipsis">
+      Talentos 20→40
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ruta-de-armas" class="md-nav__link">
+    <span class="md-ellipsis">
+      Ruta de armas
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#zonas-alianza" class="md-nav__link">
+    <span class="md-ellipsis">
+      Zonas (Alianza)
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#macros" class="md-nav__link">
+    <span class="md-ellipsis">
+      Macros
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -586,7 +690,43 @@
   
 
 
-<h1 id="05-paladin">05-paladin</h1>
+<h1 id="paladin-retribucion-guia-de-leveo-2040">Paladín Retribución — Guía de leveo (20–40)</h1>
+<h2 id="boost-ahora">¿Boost ahora?</h2>
+<p>No, si tienes <strong>2H lenta</strong> (≥3.2–3.6) y usas <strong>SoCr → Juicio → SoC</strong>.<br />
+Si te atascas: BFD/SFK o <strong>RFK (28–30)</strong> para arma grande.</p>
+<h2 id="prioridades">Prioridades</h2>
+<p>Arma <strong>2H lenta</strong> &gt; Fuerza &gt; Crit ≈ Agi &gt; Sta &gt; Int.<br />
+Encantos: <strong>Fiery</strong> (barato) → <strong>Crusader</strong> si farmeas cómodo.</p>
+<h2 id="sellos-y-swapping">Sellos y “swapping”</h2>
+<p>1) <strong>Seal of the Crusader</strong> → <strong>Juicio</strong> (aplica <strong>JotC</strong>).<br />
+2) Cambia a <strong>Seal of Command</strong> y pega.  </p>
+<blockquote>
+<p>Usa <strong>swing timer</strong> y no cambies sello justo antes del swing.</p>
+</blockquote>
+<h2 id="rotacion">Rotación</h2>
+<p>Bendición <strong>Might/Wisdom</strong> · Aura <strong>Retribution/Devotion</strong> ·<br />
+SoCr → Juicio → SoC → autoataques → <strong>HoJ</strong> si quieres burst/cortar ·<br />
+<strong>Consagración</strong> solo en packs.</p>
+<h2 id="talentos-2040">Talentos 20→40</h2>
+<p>Benediction 5/5 → Imp. Judgement 2/2 → Conviction 5/5 → SoC → Two-Hand Spec 3/3.</p>
+<h2 id="ruta-de-armas">Ruta de armas</h2>
+<p><strong>Verigan’s Fist (18–29)</strong> → <strong>Corpsemaker (RFK ~28–30)</strong> → <strong>Ravager/Mograine (SM 36–40)</strong>.</p>
+<h2 id="zonas-alianza">Zonas (Alianza)</h2>
+<p>20–22 Redridge/Wetlands · 22–26 Duskwood · 26–30 Ashenvale/Thousand Needles · 30–36 Desolace/STV · 36–40 STV/Arathi/SM.</p>
+<h2 id="macros">Macros</h2>
+<p>```macro</p>
+<h1 id="showtooltip">showtooltip</h1>
+<p>/startattack
+/castsequence reset=12 Seal of the Crusader, Judgement, Seal of Command</p>
+<h1 id="showtooltip-judgement">showtooltip Judgement</h1>
+<p>/startattack
+/cast Judgement</p>
+<h1 id="showtooltip-hammer-of-justice">showtooltip Hammer of Justice</h1>
+<p>/cast [@mouseover,harm,nodead][] Hammer of Justice</p>
+<h1 id="showtooltip-divine-protection">showtooltip Divine Protection</h1>
+<p>/cast Divine Protection
+/stopcasting
+/cast Holy Light</p>
 
 
 
